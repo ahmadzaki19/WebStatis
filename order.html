@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Help - Membuat Web Statis</title>
+		<link href="css/web.css" rel="stylesheet"/>
+		<link href="gambar/zzlogo.png" rel="shortcut icon"/>
+</head>
+<body>
+	<header class="webstatis" id="judul">
+		<img src="gambar/zzlogo.png" alt="Logo Z-datacom" title="Logo Z-datacom" id="logo">
+		<h1>Z-datacom</h1>
+		<h2>solution for you.</h2>
+	</header>
+	<nav class="webstatis">
+		<!--Membuat Menu Horizontal-->
+			<ul>
+				<li><a href="index.html" >Home</a></li>
+				<li><a href="about.html" >About</a></li>
+				<li><a href="#" >Product</a>
+					<ul>
+						<li><a href="#">Hardware</a>
+							<ul>
+								<li><a  href="harddisk.html">Harddisk</a></li>
+								<li><a  href="ram.html">RAM</a></li>
+								<li><a  href="processor.html">Processor</a></li>							
+							</ul>	
+						</li>
+						
+						<li><a href="software.html">Software</a></li>
+						<li><a href="os.html">OS</a></li>
+						<li><a href="webshop.html">Web Olshop</a></li>
+					</ul></li>
+				<li><a href="tutorial.html" >Tutorial</a></li>
+				<li><a href="order.html" >Order</a></li>
+				<li><a href="contact.html" >Contact</a></li>
+				<li><a href="help.html" >Help</a></li>
+			</ul>		
+	</nav>
+	<section class="webstatis"id="utama">
+		<section id="konten">
+			<article>
+				<header>
+					<h2>Order</h2>			
+				</header>				
+				<br/>
+				<p>
+							
+		<hr/>		
+		<form action="afterorder.html">
+		<table>
+			<tr>
+			<td>Nama Lengkap</td><td>:</td> 
+			<td><input type="text" name="nama"/></td>
+			</tr>
+			<tr>
+			<td>Jenis Kelamin</td><td>:</td> 
+			<td><input type="radio" name="jk" value="Laki-laki"/>Laki-laki
+			<input type="radio" name="jk" value="Perempuan"/>Perempuan</td>
+			</tr>
+			
+			<tr>
+			<td>Alamat</td><td>:</td>
+			<td><textarea name="alamat"></textarea></td>
+			</tr>
+			<tr>
+			<td rowspan=2 align="top">Hobi</td><td rowspan=2>:</td>
+			<td ><input type="checkbox" name="hobi" value="Olahraga"/>Olahraga
+			<input type="checkbox" name="hobi" value="Musik"/>Musik
+			<input type="checkbox" name="hobi" value="Membaca"/>Membaca</td>
+			</tr>
+			<tr>
+			<td><input type="checkbox" name="hobi" value="Petualang"/>Petualang
+			<input type="checkbox" name="hobi" value="Lain-lain"/>Lain-lain</td>
+			</tr>
+			<tr>
+			<td>Email</td><td>:</td> 
+			<td><input type="text" name="email"/></td>
+			</tr>
+
+			<tr>
+			<td>Password</td><td>:</td> 
+			<td><input type="password" name="password" id="password"/></td>
+			</tr>
+			<tr>
+			<td>Product</td><td>:</td> 
+			<td><select name="product">
+				<option value="">-Choose product-</option>
+				<option value="Hardware">Hardware</option>
+				<option value="Software">Software</option>
+				<option value="OS">OS</option>
+				<option value="Web Olshop">Web Olshop</option>
+			</select></td>
+			</tr>
+			<tr>
+			<td>Model</td><td>:</td> 
+			<td><input type="text" name="model"/></td>
+			</tr>
+			<tr>
+			<td><input type="submit" name="order" value="Order"/>
+			<input type="reset" name="reset" value="Reset"/>
+			</tr>
+		</table>
+		</form>
+				</p>
+				<br/>
+			</article>		
+		</section>
+		<aside id="sidebar">
+		<form class="cari">
+  		<input class="search" type="text" placeholder="Cari..." required>	
+  		<input class="button" type="button" value="Cari">
+		</form> 	
+		<br/>			
+			<b>News & Promo</b>
+			<ul>
+				<li>Google realease new smart-pc</li>
+				<li>Indonesian Independence Day 71st-PROMO</li>
+				<li>Olshop Web Pricelist in 2016</li>
+				<li>Put your ads in Z-datacom web-PROMO Price</li>
+				<li>Blablabla</li>
+			</ul>
+		</aside>
+	</section>
+	<footer class="webstatis" id="bawah">
+		<br/>Web Statis		
+		<br/>by <a href="http://udazaki.blogspot.co.id/" target="blank">Ahmad Zaki</a>
+		<br/><i>copyright@2106</i>
+	</footer>
+</body>
+</html>
